@@ -11,12 +11,20 @@
             	"-Wextra",
             	"-pedantic",
             	"-std=c99",
-                "-c",
-        	"array_helpers.c",
-            	"sort.c",
-            	"main.c",
-            	"sorter.exe",
-            	"sorter.c"
+                "-no-pie",
+                "array_helpers.o",
+                "sort.o",
+                "sort_helpers.o",
+                "main.o",
+                "-o",
+                "sorter"
+
+//              "-c",
+//        	"array_helpers.c",
+//            	"sort.c",
+//            	"main.c",
+//            	"sorter.exe",
+//            	"sorter.c"
             ],
             "group": {
                 "kind": "build",
