@@ -3,7 +3,7 @@
 1. Crear la carpeta "myproj" con sus archivos adentro, con la siguiente estructura:  
     C:\myproj\sorter.c  
     C:\myproj\vscode\  
-    C:\myproj\vscode\c_cpp_properties.json  
+    C:\myproj\vscode\c_c_properties.json  
     C:\myproj\vscode\launch.json  
     C:\myproj\vscode\settings.json  
     C:\myproj\vscode\tasks.json  
