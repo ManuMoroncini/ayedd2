@@ -13,7 +13,7 @@
 3. Abrir y cerrar visual studio code  
 
 4. Abrir visual studio code
-
-  Arriba a la derecha, en Archivo, darle a Abrir carpeta y seleccionar ""myproj" 
-  BUILD PROJECT:   apretar "Ctrl + Shift + B" para compilar sorter.exe  
+  
+  Arriba a la derecha, en Archivo, darle a Abrir carpeta y seleccionar "myproj"
+  BUILD PROJECT:   apretar "Ctrl + Shift + B" para compilar sorter.exe
   RUN PROJECT:     apretar "Ctrl + F5" para correr sorter.exe
