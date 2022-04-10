@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "(Windows) Launch",
-            "type": "cvsdbg",
+            "type": "cppdbg",
             "request": "launch",
             "program": "${C:\\Users\\viclo\\OneDrive\\Documentos\\OneDrive\\lab02\\ej1}/sort.exe",
             "args": [],
@@ -17,7 +17,7 @@
         },
         {
             "name": "(Windows) Attach",
-            "type": "cvsdbg",
+            "type": "cppdbg",
             "request": "attach",
             "processId": "${command:pickProcess}"
         }
