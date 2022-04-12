@@ -77,6 +77,22 @@ int main(int argc, char *argv[]) {
        copiar el arreglo original, resetear los contadores y setear el tiempo.
     */
     /* needs implementation */
+    
+    /* reboot counters & set time */
+    reset_comparisons_counter();
+    reset_swaps_counter();
+    set_current_time();
+    
+    /* restore copy */
+    array_copy(copy, array, length);
+
+    /* sort, used method: insertion sort */
+    insertion_sort(copy, length);
+
+    /* printf statistics: selection_sort */
+    printf("estadistidas del insertion_sort\n");
+    printf("time elapsed=%g,    comparisons: %10u,    swaps: %10u\n", calculate_elapsed_time(), comparisons_number(), swaps_number());
+    
 
 
     /* all the same for quick_sort */
@@ -87,6 +103,20 @@ int main(int argc, char *argv[]) {
     */
     /* needs implementation */
 
+    /* reboot counters & set time */
+    reset_comparisons_counter();
+    reset_swaps_counter();
+    set_current_time();
+    
+    /* restore copy */
+    array_copy(copy, array, length);
+
+    /* sort, used method: insertion sort */
+    quick_sort(copy, length);
+
+    /* printf statistics: selection_sort */
+    printf("estadisticas del quick_sort\n");
+    printf("time elapsed=%g,    comparisons: %10u,    swaps: %10u\n", calculate_elapsed_time(), comparisons_number(), swaps_number());
 
 
     return EXIT_SUCCESS;
