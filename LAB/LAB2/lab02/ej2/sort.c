@@ -10,8 +10,10 @@
 static void quick_sort_rec(int a[], unsigned int izq, unsigned int der) {
     // proc quick_sort_rec (in/out a: array[1..n] of T, in izq,der: nat)
     unsigned int ppiv = partition(a,izq,der);
-    if (der > izq) {
+    if (pivot > izq) {
         quick_sort_rec(a,izq,ppiv-1);
+    }
+    if (pivot < izq) {
         quick_sort_rec(a,ppiv+1,der);
     }
 
